@@ -9,7 +9,7 @@
 		<div class="page-content" style="">
 			<section class="info-pop-box">
 				<div class="na">
-					<div class="name">广州木棉花语酒店(原金山酒店)</div>
+					<div class="name">{{hotelName}}</div>
 					<div class="addr"><i></i>天河区禺东西路57号(东站地铁站H出口/近东站汽车客运站)省军区公交车站旁</div>
 				</div>
 				<dl class="facilities"><dt>酒店设施</dt>
@@ -75,6 +75,9 @@
 		computed:{
 			showFac(){
 				return scope.showFac
+			},
+			hotelName(){
+				return scope.hotelInformation.hotelName
 			}
 		},
 		methods:{

@@ -246,3 +246,8 @@ span.ivu-date-picker-cells-cell {
 #l-map>div:last-child{
 	 width: 372px !important;
 }
+
+
+.mvt_161125 .detail-main .hotel-info .info ul .info_mn .right{
+	z-index: 999999;
+}
