@@ -7,7 +7,7 @@
 			</div>
 		</div>
 		<div class="map_bg"></div>
-		<div id ="right" class="right">
+		<div id ="right" class="right" @click="mapState()">
 			<div id="littlemap" class="map_c">
 				<div width="180" height="180"></div>
 				<i class="map_icons"></i>

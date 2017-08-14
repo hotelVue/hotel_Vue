@@ -39169,14 +39169,19 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "addr"
   }, [_vm._v(_vm._s(_vm.trafficInfo))])])]), _vm._v(" "), _c('div', {
     staticClass: "map_bg"
-  }), _vm._v(" "), _vm._m(0)])
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
+  }), _vm._v(" "), _c('div', {
     staticClass: "right",
     attrs: {
       "id": "right"
+    },
+    on: {
+      "click": function($event) {
+        _vm.mapState()
+      }
     }
-  }, [_c('div', {
+  }, [_vm._m(0)])])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "map_c",
     attrs: {
       "id": "littlemap"
@@ -39188,7 +39193,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _vm._v(" "), _c('i', {
     staticClass: "map_icons"
-  })])])
+  })])
 }]}
 module.exports.render._withStripped = true
 if (false) {
