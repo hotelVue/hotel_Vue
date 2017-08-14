@@ -40,7 +40,7 @@ import 'muse-ui/dist/muse-ui.css'
 
 Vue.use(MuseUI)
 
-//router路由部分.........................................................
+//router路由部分..........................................................
 
 //引入定义好的路由。(所有级别的路由)
 import detail from "./components/routes/detail.vue"
